@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Madrid se queja</title>
+</head>
+
+<body>
+    <section>
+        <article class="nav">
+            <h1>Seleccione distrito</h1>
+            <a href="formadmin.html">Administracion</a>
+        </article>
+    </section>
+    <section class="contenido">
+        <article class="mapa">
+            <h2>Seleccione distrito</h2>
+            <img src="./images/mapadistritos2.gif" alt="" width="280" height="280" usemap="#Map" />
+            <map name="Map">
+          <area
+            shape="poly"
+            alt="Moncloa"
+            title="Moncloa"
+            coords="56,50,80,59,90,68,107,74,125,81,131,106,135,129,134,151,125,164,121,172,99,172,88,163,82,156,71,157,54,162,53,147,30,129,26,121,37,109,49,101,57,89,59,78,56,71,54,58,55,50"
+            href="marcaryconsultar.php?distrito=moncloa&codigo=2"
+          />
+          <area
+            shape="poly"
+            alt="Salamanca"
+            title="Salamanca"
+            coords="128,81,142,76,148,61,149,44,157,39,168,44,179,44,196,40,211,30,224,22,230,38,230,54,227,62,227,75,227,87,224,99,222,114,219,119,221,129,202,129,181,126,168,122,156,117,147,108,137,100,128,97,128,82"
+            href="marcaryconsultar.php?distrito=salamanca&codigo=3"
+          />
+          <area
+            shape="poly"
+            alt="Retiro"
+            title="Retiro"
+            coords="132,100,151,111,173,123,195,128,223,129,224,139,227,144,219,157,205,170,194,195,185,195,180,207,169,200,158,189,153,175,146,166,130,166,127,165,135,152,135,136,134,122,132,101"
+            href="marcaryconsultar.php?distrito=centro&codigo=1"
+          />
+          <area
+            shape="poly"
+            alt="Arganzuela"
+            title="Arganzuela"
+            coords="54,161,41,174,40,185,38,191,38,197,39,202,53,204,69,210,87,219,107,237,134,258,170,240,173,220,181,207,159,187,146,167,126,167,117,171,100,172,84,162,75,158,55,161"
+            href="marcaryconsultar.php?distrito=centro&codigo=1"
+          />
+        </map>
+        </article>
+        <article class="distritos">
+            <h2>Distritos</h2>
+            <ol>
+                <a href="marcaryconsultar.php?distrito=moncloa&codigo=2">
+                    <li>Moncloa</li>
+                </a>
+                <a href="marcaryconsultar.php?distrito=salamanca&codigo=3">
+                    <li>Salamanca</li>
+                </a>
+                <a href="marcaryconsultar.php?distrito=centro&codigo=1">
+                    <li>Retiro</li>
+                </a>
+                <a href="marcaryconsultar.php?distrito=centro&codigo=1">
+                    <li>Arganzuela</li>
+                </a>
+            </ol>
+        </article>
+    </section>
+</body>
+
+</html>

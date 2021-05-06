@@ -1,0 +1,135 @@
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.margeni {
+    width: 69%;
+}
+
+.margend {
+    width: 25%;
+    background-color: steelblue;
+    padding: 0px 3%;
+    letter-spacing: 3px;
+}
+
+table {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.tdmujer {
+    vertical-align: bottom;
+}
+
+.hombre {
+    width: 60px;
+    background-color: #607d8b;
+}
+
+.mujer {
+    width: 60px;
+    background-color: green;
+}
+
+.estudiante {
+    width: 60px;
+    background-color: tomato;
+}
+
+.trabajador {
+    width: 60px;
+    background-color: steelblue;
+}
+
+.parado {
+    width: 60px;
+    background-color: grey;
+}
+
+.ambiental {
+    background-image: url("./images/pverde.jpg");
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.conflictiva {
+    background-image: url("./images/pamarillo.jpg");
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.social {
+    background-image: url("./images/pazul.jpg");
+    background-color: steelblue;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+
+/* .padre{
+    position:relative;
+    text-align: center;
+} */
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+    background-color: whitesmoke;
+    width: 200px;
+    padding: 5px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 120%;
+    z-index: 2;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    background: steelblue;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.contenido {
+    width: 60%;
+    margin: auto;
+    background-color: oldlace;
+    padding: 5% 0px;
+}
+
+.leyenda {
+    background: silver;
+    padding: 5px;
+    border: 3px solid black;
+    width: 15%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.padre {
+    position: relative;
+    width: 568px;
+    text-align: center;
+    height: 364px;
+    margin: auto;
+}

@@ -1,0 +1,24 @@
+.top{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom:10px;
+    color:whitesmoke;
+}
+.margeni{
+    width:69%;
+}
+.margend{
+    width:25%;
+    background-color:steelblue;
+    padding: 0px 3%;
+    letter-spacing: 3px;
+}
+.imagenseleccion{
+    text-align:center;
+}
+h1{
+    text-align: center;
+    background: steelblue;
+    color: whitesmoke;
+    padding: 20px;
+}
